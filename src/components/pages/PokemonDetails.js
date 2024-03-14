@@ -16,7 +16,6 @@ const PokemonDetails = () => {
             try {
                 const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`);
                 const data = await response.json();
-                console.log("dados unicos", data)
                 setPokemonDetails(data);
                 setTypes(data.types)
                 getAbilities(data)

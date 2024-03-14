@@ -18,7 +18,6 @@ const PokemonHome = () => {
     useEffect(() => {
         // Verifica se o componente está montado para evitar a atualização de estado após a desmontagem
         let isMounted = true;
-        console.log('mountrd', isMounted)
 
 
         const fetchData = async () => {
@@ -34,14 +33,12 @@ const PokemonHome = () => {
                     return pokemonData;
                 }));
 
-                console.log("pokeSer", fetchedPokemons)
+               
 
                 if (isMounted) {
                     setPokemons((prevPokemons) => [...prevPokemons, ...fetchedPokemons]);
                     // setCountPoke(prevCountPoke => prevCountPoke + 10)
 
-                } else {
-                    console.log('desmontou demo?')
                 }
             } catch (error) {
                 console.error("Erro ao buscar Pokémon:", error);
