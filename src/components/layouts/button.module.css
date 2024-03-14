@@ -1,0 +1,36 @@
+.btn {
+    height: 3rem;
+    padding: 0 0.6rem;
+    transition: 0.3s linear;
+    margin: 2vh 0 0 2vw;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: gold;
+}
+
+.back_button {
+    background-color: #fff;
+    color: red;
+}
+
+.back_button:hover{
+    background-color: red;
+    color: white;
+}
+
+.btn_search {
+    margin: 0 0 0 1vw;
+    height: 2.2rem;
+}
+
+@media (max-width:440px){
+    .btn_search {
+        margin: 0 0 0 1vw;
+        height: 2.2rem;
+        width: 18rem;
+    }
+
+}

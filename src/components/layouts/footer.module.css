@@ -1,0 +1,36 @@
+.container_footer {
+    background-color: #c1c1c1;
+    min-height: 15vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container_footer .img_pokeball {
+    width: 5vw;
+    animation: moveUpDown 3s ease-in-out infinite;
+
+}
+
+ .img_pokedex {
+    width: 10vw ; 
+}
+
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Mova para cima */
+    }
+
+}
+
+@media (max-width:700px){
+    .img_pokedex {
+        width: 20vw ; 
+    }
+
+}

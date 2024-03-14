@@ -1,0 +1,38 @@
+.container_input {
+    margin: 2vh 0 5vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.container_input label {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #ffee33;
+}
+
+.container_input input {
+    width: 20rem;
+    height: 2.5vh;
+}
+
+@media (max-width: 440px) {
+.container_input{
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.container_input label {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffee33;
+    
+}
+
+    .container_input input {
+        width: 18rem;
+        height: 2.5vh;
+    }
+
+}

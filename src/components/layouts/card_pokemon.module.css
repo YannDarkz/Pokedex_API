@@ -1,0 +1,22 @@
+.container_card {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 13rem;
+    height: 16rem;
+    align-items: center;
+    border: 4px double;
+    margin: 1rem;
+    padding: 0.6rem;
+    border-radius: 1rem;
+}
+
+.container_card h4 {
+    color: #ffee33;
+    font-size: 1.2rem;
+}
+
+.container_card img {
+    width: 70%;
+
+}

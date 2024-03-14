@@ -1,0 +1,13 @@
+.container_header {
+    background-color: #c1c1c1;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+@media (max-width:470px){
+    .container_header img {
+        width: 70vw;
+    }
+}
